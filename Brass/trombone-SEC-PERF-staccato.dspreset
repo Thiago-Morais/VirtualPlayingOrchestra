@@ -1,1 +1,79 @@
-<!-- TODO Implement: Brass/trombone-SEC-PERF-staccato.dspreset -->
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler minVersion="1.0.0">
+	<ui width="812" height="375" bgImage="../Images/background.png" layoutMode="relative" bgMode="top_left">
+		<tab name="main">
+			<labeled-knob x="445" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.2" style="custom_skin_vertical_drag" customSkinImage="../Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="515" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.2" style="custom_skin_vertical_drag" customSkinImage="../Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="585" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0" style="custom_skin_vertical_drag" customSkinImage="../Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="655" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Volume" type="float" minValue="0" maxValue="1" value="1.0" style="custom_skin_vertical_drag" customSkinImage="../Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+				<binding type="amp" level="instrument" position="0" parameter="AMP_VOLUME" />
+			</labeled-knob>
+			<labeled-knob x="725" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Reverb Mix" type="float" minValue="0" maxValue="1" value="0.0" style="custom_skin_vertical_drag" customSkinImage="../Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+				<binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="linear" />
+			</labeled-knob>
+			<menu x="600" y="40" width="200" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+				<option name="Studio">
+					<binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="../IR/Studio.wav" />
+				</option>
+				<option name="Church">
+					<binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="../IR/Church.wav" />
+				</option>
+				<option name="Garage">
+					<binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="../IR/Garage.wav" />
+				</option>
+				<option name="Spring">
+					<binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="../IR/Spring.wav" />
+				</option>
+			</menu>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups volume="1.0" ampVelTrack="0">
+		<!-- manufacture staccato from sustain -->
+		<group name="Trombone staccato" attack="0.03" decay="0.4" sustain="0" release="0.6">
+			<sample rootNote="41" loNote="40" hiNote="42" tags="vel-f" path="Samples\Trombone\2_F.wav" volume="1dB" />
+			<sample rootNote="45" loNote="43" hiNote="46" tags="vel-f" path="Samples\Trombone\2_A.wav" volume="2dB" />
+			<sample rootNote="48" loNote="47" hiNote="49" tags="vel-f" path="Samples\Trombone\3_C.wav" volume="1dB" />
+			<sample rootNote="51" loNote="50" hiNote="52" tags="vel-f" path="Samples\Trombone\3_Eb.wav" volume="1dB" />
+			<sample rootNote="54" loNote="53" hiNote="55" tags="vel-f" path="Samples\Trombone\3_Gb.wav" />
+			<sample rootNote="57" loNote="56" hiNote="58" tags="vel-f" path="Samples\Trombone\3_A.wav" />
+			<sample rootNote="60" loNote="59" hiNote="61" tags="vel-f" path="Samples\Trombone\4_C.wav" volume="-1dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" tags="vel-f" path="Samples\Trombone\4_Eb.wav" />
+			<sample rootNote="66" loNote="65" hiNote="67" tags="vel-f" path="Samples\Trombone\4_Gb.wav" volume="-1dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" tags="vel-f" path="Samples\Trombone\4_A.wav" />
+			<sample rootNote="72" loNote="71" hiNote="77" tags="vel-f" path="Samples\Trombone\5_C.wav" />
+			<effects />
+		</group>
+		<!-- manufacture staccato from sustain -->
+		<group name="Trombone-p staccato" attack="0.03" decay="0.4" sustain="0" release="0.6">
+			<sample rootNote="41" loNote="40" hiNote="43" tags="vel-p" path="Samples\Trombone\2_F_p.wav" tuning="-0.05" />
+			<sample rootNote="46" loNote="44" hiNote="48" tags="vel-p" path="Samples\Trombone\2_Bb_p.wav" tuning="-0.05" />
+			<sample rootNote="51" loNote="49" hiNote="53" tags="vel-p" path="Samples\Trombone\3_Eb_p-PB-loop.wav" volume="1dB" tuning="-0.05" />
+			<sample rootNote="56" loNote="54" hiNote="58" tags="vel-p" path="Samples\Trombone\3_Ab_p.wav" />
+			<sample rootNote="61" loNote="59" hiNote="63" tags="vel-p" path="Samples\Trombone\4_Db_p.wav" />
+			<sample rootNote="66" loNote="64" hiNote="68" tags="vel-p" path="Samples\Trombone\4_Gb_p.wav" volume="-1dB" tuning="-0.15" />
+			<sample rootNote="71" loNote="69" hiNote="77" tags="vel-p" path="Samples\Trombone\4_B_p.wav" />
+			<effects />
+		</group>
+	</groups>
+	<effects>
+		<effect type="lowpass" frequency="22000.0" />
+		<effect type="chorus" mix="0.0" modDepth="0.2" modRate="0.2" />
+		<effect type="convolution" mix="0.0" irFile="../IR/Studio.wav" />
+	</effects>
+	<midi>
+		<cc number="1">
+			<binding type="control" level="ui" parameter="VALUE" position="3" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="vel-p" translation="table" translationTable="0,1;64,1;128,0" />
+			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="vel-f" translation="table" translationTable="0,0;64,0;128,1" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>
