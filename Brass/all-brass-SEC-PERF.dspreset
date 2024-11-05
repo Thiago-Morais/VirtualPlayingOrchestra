@@ -36,15 +36,15 @@
 	</ui>
 	<groups volume="1.0" ampVelTrack="0">
 		<group name="Tuba">
-			<sample rootNote="28" loNote="26" hiNote="29" path="Samples\all-brass-SEC-sustain\tuba-sus-e1-PB-loop.wav" tuning="-0.03" volume="5dB" />
-			<sample rootNote="31" loNote="30" hiNote="32" path="Samples\all-brass-SEC-sustain\tuba-sus-g1-PB-loop.wav" tuning="0.05" volume="6dB" />
-			<sample rootNote="34" loNote="33" hiNote="35" path="Samples\all-brass-SEC-sustain\tuba-sus-a#1-PB-loop.wav" volume="4dB" />
-			<sample rootNote="37" loNote="36" hiNote="38" path="Samples\all-brass-SEC-sustain\tuba-sus-c#2-PB-loop.wav" tuning="-0.14" volume="7dB" />
-			<sample rootNote="40" loNote="39" hiNote="40" path="Samples\all-brass-SEC-sustain\tuba-sus-e2-PB-loop.wav" tuning="-0.17" volume="5dB" />
-			<sample rootNote="43" loNote="41" hiNote="44" path="Samples\all-brass-SEC-sustain\tuba-sus-g2-PB-loop.wav" volume="7dB" />
-			<sample rootNote="46" loNote="45" hiNote="47" path="Samples\all-brass-SEC-sustain\tuba-sus-a#2-PB-loop.wav" volume="5dB" />
-			<sample rootNote="49" loNote="48" hiNote="50" path="Samples\all-brass-SEC-sustain\tuba-sus-c#3-PB-loop.wav" tuning="0.1" volume="5dB" />
-			<sample rootNote="52" loNote="51" hiNote="62" path="Samples\all-brass-SEC-sustain\tuba-sus-e3-PB-loop.wav" volume="6dB" />
+			<sample rootNote="28" loNote="26" hiNote="29" path="Samples\Tuba\tuba-sus-e1-PB-loop.wav" tuning="-0.03" volume="5dB" />
+			<sample rootNote="31" loNote="30" hiNote="32" path="Samples\Tuba\tuba-sus-g1-PB-loop.wav" tuning="0.05" volume="6dB" />
+			<sample rootNote="34" loNote="33" hiNote="35" path="Samples\Tuba\tuba-sus-a#1-PB-loop.wav" volume="4dB" />
+			<sample rootNote="37" loNote="36" hiNote="38" path="Samples\Tuba\tuba-sus-c#2-PB-loop.wav" tuning="-0.14" volume="7dB" />
+			<sample rootNote="40" loNote="39" hiNote="40" path="Samples\Tuba\tuba-sus-e2-PB-loop.wav" tuning="-0.17" volume="5dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" path="Samples\Tuba\tuba-sus-g2-PB-loop.wav" volume="7dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" path="Samples\Tuba\tuba-sus-a#2-PB-loop.wav" volume="5dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" path="Samples\Tuba\tuba-sus-c#3-PB-loop.wav" tuning="0.1" volume="5dB" />
+			<sample rootNote="52" loNote="51" hiNote="62" path="Samples\Tuba\tuba-sus-e3-PB-loop.wav" volume="6dB" />
 			<effects />
 		</group>
 		<group name="Horns-ff">
