@@ -35,6 +35,7 @@
 		<keyboard />
 	</ui>
 	<groups volume="1.0" ampVelTrack="0">
+		<!-- TODO Change the envelope from the samples to the group -->
 		<group name="Bass Trombone Staccato" tags="vel-f" volume="3dB">
 			<sample rootNote="40" loNote="34" hiNote="41" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-e1-PB-loop.wav" volume="-4dB" />
 			<sample rootNote="43" loNote="42" hiNote="44" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-g1-PB-loop.wav" volume="-6dB" />
