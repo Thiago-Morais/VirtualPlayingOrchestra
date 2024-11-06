@@ -47,89 +47,89 @@
 			<sample rootNote="52" loNote="51" hiNote="62" path="Samples\Tuba\tuba-sus-e3-PB-loop.wav" volume="6dB" />
 			<effects />
 		</group>
-		<group name="Horns-ff">
-			<sample rootNote="40" loNote="35" hiNote="41" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e2-PB-loop.wav" tuning="0.15" volume="5dB" />
-			<sample rootNote="43" loNote="42" hiNote="44" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-g2-PB-loop.wav" volume="3dB" />
-			<sample rootNote="46" loNote="45" hiNote="47" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-a#2-PB-loop.wav" tuning="-0.05" volume="4.5dB" />
-			<sample rootNote="49" loNote="48" hiNote="50" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-c#3-PB-loop.wav" tuning="-0.05" volume="2dB" />
-			<sample rootNote="52" loNote="51" hiNote="53" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e3-PB-loop.wav" tuning="0.1" volume="3.5dB" />
-			<sample rootNote="55" loNote="54" hiNote="56" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-g3-PB-loop.wav" volume="2dB" />
-			<sample rootNote="58" loNote="57" hiNote="59" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-a#3-PB-loop.wav" volume="3dB" />
-			<sample rootNote="61" loNote="60" hiNote="62" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-c#4-PB-loop.wav" volume="3dB" />
-			<sample rootNote="64" loNote="63" hiNote="65" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e4-PB-loop.wav" tuning="-0.05" volume="3dB" />
-			<sample rootNote="67" loNote="66" hiNote="68" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-g4-PB-loop.wav" tuning="-0.05" volume="5dB" />
-			<sample rootNote="70" loNote="69" hiNote="71" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-a#4-PB-loop.wav" volume="3dB" />
-			<sample rootNote="73" loNote="72" hiNote="74" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-c#5-PB-loop.wav" tuning="0.05" volume="3dB" />
-			<sample rootNote="76" loNote="75" hiNote="77" tags="vel-f" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e5-PB-loop.wav" volume="1dB" />
+		<group name="Horns-ff" tags="vel-f">
+			<sample rootNote="40" loNote="35" hiNote="41" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e2-PB-loop.wav" tuning="0.15" volume="5dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" path="Samples\all-brass-SEC-sustain\horns-sus-ff-g2-PB-loop.wav" volume="3dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" path="Samples\all-brass-SEC-sustain\horns-sus-ff-a#2-PB-loop.wav" tuning="-0.05" volume="4.5dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" path="Samples\all-brass-SEC-sustain\horns-sus-ff-c#3-PB-loop.wav" tuning="-0.05" volume="2dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e3-PB-loop.wav" tuning="0.1" volume="3.5dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" path="Samples\all-brass-SEC-sustain\horns-sus-ff-g3-PB-loop.wav" volume="2dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" path="Samples\all-brass-SEC-sustain\horns-sus-ff-a#3-PB-loop.wav" volume="3dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" path="Samples\all-brass-SEC-sustain\horns-sus-ff-c#4-PB-loop.wav" volume="3dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e4-PB-loop.wav" tuning="-0.05" volume="3dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" path="Samples\all-brass-SEC-sustain\horns-sus-ff-g4-PB-loop.wav" tuning="-0.05" volume="5dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" path="Samples\all-brass-SEC-sustain\horns-sus-ff-a#4-PB-loop.wav" volume="3dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" path="Samples\all-brass-SEC-sustain\horns-sus-ff-c#5-PB-loop.wav" tuning="0.05" volume="3dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" path="Samples\all-brass-SEC-sustain\horns-sus-ff-e5-PB-loop.wav" volume="1dB" />
 			<effects />
 		</group>
-		<group name="Horns-mp">
-			<sample rootNote="40" loNote="35" hiNote="41" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e2-PB-loop.wav" volume="8dB" />
-			<sample rootNote="43" loNote="42" hiNote="44" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-g2-PB-loop.wav" volume="4dB" />
-			<sample rootNote="46" loNote="45" hiNote="47" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-a#2-PB-loop.wav" volume="5.5dB" />
-			<sample rootNote="49" loNote="48" hiNote="50" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-c#3-PB-loop.wav" volume="7dB" />
-			<sample rootNote="52" loNote="51" hiNote="53" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e3-PB-loop.wav" volume="4.5dB" />
-			<sample rootNote="55" loNote="54" hiNote="56" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-g3-PB-loop.wav" volume="2dB" />
-			<sample rootNote="58" loNote="57" hiNote="59" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-a#3-PB-loop.wav" volume="3dB" />
-			<sample rootNote="61" loNote="60" hiNote="62" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-c#4-PB-loop.wav" volume="5dB" />
-			<sample rootNote="64" loNote="63" hiNote="65" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e4-PB-loop.wav" volume="3dB" />
-			<sample rootNote="67" loNote="66" hiNote="68" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-g4-PB-loop.wav" volume="5dB" />
-			<sample rootNote="70" loNote="69" hiNote="71" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-a#4-PB-loop.wav" volume="3dB" />
-			<sample rootNote="73" loNote="72" hiNote="74" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-c#5-PB-loop.wav" volume="3dB" />
-			<sample rootNote="76" loNote="75" hiNote="77" tags="vel-p" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e5-PB-loop.wav" volume="6dB" />
+		<group name="Horns-mp" tags="vel-p" volume="0">
+			<sample rootNote="40" loNote="35" hiNote="41" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e2-PB-loop.wav" volume="8dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" path="Samples\all-brass-SEC-sustain\horns-sus-mp-g2-PB-loop.wav" volume="4dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" path="Samples\all-brass-SEC-sustain\horns-sus-mp-a#2-PB-loop.wav" volume="5.5dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" path="Samples\all-brass-SEC-sustain\horns-sus-mp-c#3-PB-loop.wav" volume="7dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e3-PB-loop.wav" volume="4.5dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" path="Samples\all-brass-SEC-sustain\horns-sus-mp-g3-PB-loop.wav" volume="2dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" path="Samples\all-brass-SEC-sustain\horns-sus-mp-a#3-PB-loop.wav" volume="3dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" path="Samples\all-brass-SEC-sustain\horns-sus-mp-c#4-PB-loop.wav" volume="5dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e4-PB-loop.wav" volume="3dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" path="Samples\all-brass-SEC-sustain\horns-sus-mp-g4-PB-loop.wav" volume="5dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" path="Samples\all-brass-SEC-sustain\horns-sus-mp-a#4-PB-loop.wav" volume="3dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" path="Samples\all-brass-SEC-sustain\horns-sus-mp-c#5-PB-loop.wav" volume="3dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" path="Samples\all-brass-SEC-sustain\horns-sus-mp-e5-PB-loop.wav" volume="6dB" />
 			<effects />
 		</group>
-		<group name="Trombone">
-			<sample rootNote="41" loNote="40" hiNote="42" tags="vel-f" path="Samples\all-brass-SEC-sustain\2_F.wav" />
-			<sample rootNote="45" loNote="43" hiNote="46" tags="vel-f" path="Samples\all-brass-SEC-sustain\2_A.wav" />
-			<sample rootNote="48" loNote="47" hiNote="49" tags="vel-f" path="Samples\all-brass-SEC-sustain\3_C.wav" />
-			<sample rootNote="51" loNote="50" hiNote="52" tags="vel-f" path="Samples\all-brass-SEC-sustain\3_Eb.wav" />
-			<sample rootNote="54" loNote="53" hiNote="55" tags="vel-f" path="Samples\all-brass-SEC-sustain\3_Gb.wav" />
-			<sample rootNote="57" loNote="56" hiNote="58" tags="vel-f" path="Samples\all-brass-SEC-sustain\3_A.wav" />
-			<sample rootNote="60" loNote="59" hiNote="61" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_C.wav" />
-			<sample rootNote="63" loNote="62" hiNote="64" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_Eb.wav" />
-			<sample rootNote="66" loNote="65" hiNote="67" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_Gb.wav" />
-			<sample rootNote="69" loNote="68" hiNote="70" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_A.wav" />
-			<sample rootNote="72" loNote="71" hiNote="77" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_C.wav" />
+		<group name="Trombone" tags="vel-f">
+			<sample rootNote="41" loNote="40" hiNote="42" path="Samples\all-brass-SEC-sustain\2_F.wav" />
+			<sample rootNote="45" loNote="43" hiNote="46" path="Samples\all-brass-SEC-sustain\2_A.wav" />
+			<sample rootNote="48" loNote="47" hiNote="49" path="Samples\all-brass-SEC-sustain\3_C.wav" />
+			<sample rootNote="51" loNote="50" hiNote="52" path="Samples\all-brass-SEC-sustain\3_Eb.wav" />
+			<sample rootNote="54" loNote="53" hiNote="55" path="Samples\all-brass-SEC-sustain\3_Gb.wav" />
+			<sample rootNote="57" loNote="56" hiNote="58" path="Samples\all-brass-SEC-sustain\3_A.wav" />
+			<sample rootNote="60" loNote="59" hiNote="61" path="Samples\all-brass-SEC-sustain\4_C.wav" />
+			<sample rootNote="63" loNote="62" hiNote="64" path="Samples\all-brass-SEC-sustain\4_Eb.wav" />
+			<sample rootNote="66" loNote="65" hiNote="67" path="Samples\all-brass-SEC-sustain\4_Gb.wav" />
+			<sample rootNote="69" loNote="68" hiNote="70" path="Samples\all-brass-SEC-sustain\4_A.wav" />
+			<sample rootNote="72" loNote="71" hiNote="77" path="Samples\all-brass-SEC-sustain\5_C.wav" />
 			<effects />
 		</group>
-		<group name="Trombone-p">
-			<sample rootNote="41" loNote="40" hiNote="43" tags="vel-p" path="Samples\all-brass-SEC-sustain\2_F_p.wav" tuning="-0.05" />
-			<sample rootNote="46" loNote="44" hiNote="48" tags="vel-p" path="Samples\all-brass-SEC-sustain\2_Bb_p.wav" tuning="-0.05" />
-			<sample rootNote="51" loNote="49" hiNote="53" tags="vel-p" path="Samples\all-brass-SEC-sustain\3_Eb_p-PB-loop.wav" tuning="-0.05" />
-			<sample rootNote="56" loNote="54" hiNote="58" tags="vel-p" path="Samples\all-brass-SEC-sustain\3_Ab_p.wav" />
-			<sample rootNote="61" loNote="59" hiNote="63" tags="vel-p" path="Samples\all-brass-SEC-sustain\4_Db_p.wav" />
-			<sample rootNote="66" loNote="64" hiNote="68" tags="vel-p" path="Samples\all-brass-SEC-sustain\4_Gb_p.wav" tuning="-0.15" />
-			<sample rootNote="71" loNote="69" hiNote="77" tags="vel-p" path="Samples\all-brass-SEC-sustain\4_B_p.wav" />
+		<group name="Trombone-p" tags="vel-p" volume="0">
+			<sample rootNote="41" loNote="40" hiNote="43" path="Samples\all-brass-SEC-sustain\2_F_p.wav" tuning="-0.05" />
+			<sample rootNote="46" loNote="44" hiNote="48" path="Samples\all-brass-SEC-sustain\2_Bb_p.wav" tuning="-0.05" />
+			<sample rootNote="51" loNote="49" hiNote="53" path="Samples\all-brass-SEC-sustain\3_Eb_p-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="56" loNote="54" hiNote="58" path="Samples\all-brass-SEC-sustain\3_Ab_p.wav" />
+			<sample rootNote="61" loNote="59" hiNote="63" path="Samples\all-brass-SEC-sustain\4_Db_p.wav" />
+			<sample rootNote="66" loNote="64" hiNote="68" path="Samples\all-brass-SEC-sustain\4_Gb_p.wav" tuning="-0.15" />
+			<sample rootNote="71" loNote="69" hiNote="77" path="Samples\all-brass-SEC-sustain\4_B_p.wav" />
 			<effects />
 		</group>
-		<group name="Trompet" tuning="-0.1">
-			<sample rootNote="55" loNote="54" hiNote="55" tags="vel-f" path="Samples\all-brass-SEC-sustain\3_G.wav" />
-			<sample rootNote="56" loNote="56" hiNote="56" tags="vel-f" path="Samples\all-brass-SEC-sustain\3_Ab.wav" />
-			<sample rootNote="58" loNote="57" hiNote="58" tags="vel-f" path="Samples\all-brass-SEC-sustain\3_Bb.wav" />
-			<sample rootNote="60" loNote="59" hiNote="60" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_ca.wav" />
-			<sample rootNote="62" loNote="61" hiNote="62" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_D.wav" />
-			<sample rootNote="64" loNote="63" hiNote="64" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_E.wav" />
-			<sample rootNote="65" loNote="65" hiNote="65" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_F.wav" />
-			<sample rootNote="67" loNote="66" hiNote="67" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_G.wav" />
-			<sample rootNote="69" loNote="68" hiNote="69" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_aa.wav" />
-			<sample rootNote="70" loNote="70" hiNote="70" tags="vel-f" path="Samples\all-brass-SEC-sustain\4_Bb.wav" />
-			<sample rootNote="72" loNote="71" hiNote="72" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_ca.wav" />
-			<sample rootNote="74" loNote="73" hiNote="74" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_D.wav" />
-			<sample rootNote="75" loNote="75" hiNote="75" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_Eb.wav" />
-			<sample rootNote="77" loNote="76" hiNote="77" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_F.wav" />
-			<sample rootNote="79" loNote="78" hiNote="79" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_G.wav" />
-			<sample rootNote="81" loNote="80" hiNote="81" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_A.wav" />
-			<sample rootNote="83" loNote="82" hiNote="83" tags="vel-f" path="Samples\all-brass-SEC-sustain\5_B.wav" />
-			<sample rootNote="85" loNote="84" hiNote="84" tags="vel-f" path="Samples\all-brass-SEC-sustain\6_Db.wav" />
+		<group name="Trompet" tuning="-0.1" tags="vel-f">
+			<sample rootNote="55" loNote="54" hiNote="55" path="Samples\all-brass-SEC-sustain\3_G.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" path="Samples\all-brass-SEC-sustain\3_Ab.wav" />
+			<sample rootNote="58" loNote="57" hiNote="58" path="Samples\all-brass-SEC-sustain\3_Bb.wav" />
+			<sample rootNote="60" loNote="59" hiNote="60" path="Samples\all-brass-SEC-sustain\4_ca.wav" />
+			<sample rootNote="62" loNote="61" hiNote="62" path="Samples\all-brass-SEC-sustain\4_D.wav" />
+			<sample rootNote="64" loNote="63" hiNote="64" path="Samples\all-brass-SEC-sustain\4_E.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" path="Samples\all-brass-SEC-sustain\4_F.wav" />
+			<sample rootNote="67" loNote="66" hiNote="67" path="Samples\all-brass-SEC-sustain\4_G.wav" />
+			<sample rootNote="69" loNote="68" hiNote="69" path="Samples\all-brass-SEC-sustain\4_aa.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" path="Samples\all-brass-SEC-sustain\4_Bb.wav" />
+			<sample rootNote="72" loNote="71" hiNote="72" path="Samples\all-brass-SEC-sustain\5_ca.wav" />
+			<sample rootNote="74" loNote="73" hiNote="74" path="Samples\all-brass-SEC-sustain\5_D.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" path="Samples\all-brass-SEC-sustain\5_Eb.wav" />
+			<sample rootNote="77" loNote="76" hiNote="77" path="Samples\all-brass-SEC-sustain\5_F.wav" />
+			<sample rootNote="79" loNote="78" hiNote="79" path="Samples\all-brass-SEC-sustain\5_G.wav" />
+			<sample rootNote="81" loNote="80" hiNote="81" path="Samples\all-brass-SEC-sustain\5_A.wav" />
+			<sample rootNote="83" loNote="82" hiNote="83" path="Samples\all-brass-SEC-sustain\5_B.wav" />
+			<sample rootNote="85" loNote="84" hiNote="84" path="Samples\all-brass-SEC-sustain\6_Db.wav" />
 			<effects />
 		</group>
-		<group name="Trompet-p" tuning="-0.1">
-			<sample rootNote="58" loNote="54" hiNote="60" tags="vel-p" path="Samples\all-brass-SEC-sustain\3_Bb_p.wav" />
-			<sample rootNote="63" loNote="61" hiNote="65" tags="vel-p" path="Samples\all-brass-SEC-sustain\4_Eb_p.wav" />
-			<sample rootNote="68" loNote="66" hiNote="70" tags="vel-p" path="Samples\all-brass-SEC-sustain\4_Ab_p.wav" />
-			<sample rootNote="73" loNote="71" hiNote="76" tags="vel-p" path="Samples\all-brass-SEC-sustain\5_Db_p.wav" />
-			<sample rootNote="80" loNote="77" hiNote="84" tags="vel-p" path="Samples\all-brass-SEC-sustain\5_Ab_p.wav" />
+		<group name="Trompet-p" tuning="-0.1" tags="vel-p" volume="0">
+			<sample rootNote="58" loNote="54" hiNote="60" path="Samples\all-brass-SEC-sustain\3_Bb_p.wav" />
+			<sample rootNote="63" loNote="61" hiNote="65" path="Samples\all-brass-SEC-sustain\4_Eb_p.wav" />
+			<sample rootNote="68" loNote="66" hiNote="70" path="Samples\all-brass-SEC-sustain\4_Ab_p.wav" />
+			<sample rootNote="73" loNote="71" hiNote="76" path="Samples\all-brass-SEC-sustain\5_Db_p.wav" />
+			<sample rootNote="80" loNote="77" hiNote="84" path="Samples\all-brass-SEC-sustain\5_Ab_p.wav" />
 			<effects />
 		</group>
 	</groups>
