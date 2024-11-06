@@ -35,21 +35,20 @@
 		<keyboard />
 	</ui>
 	<groups volume="1.0" ampVelTrack="0">
-		<!-- TODO Change the envelope from the samples to the group -->
-		<group name="Bass Trombone Staccato" volume="3dB">
-			<sample rootNote="40" loNote="34" hiNote="41" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-e1-PB-loop.wav" volume="-4dB" />
-			<sample rootNote="43" loNote="42" hiNote="44" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-g1-PB-loop.wav" volume="-6dB" />
-			<sample rootNote="46" loNote="45" hiNote="47" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-a#1-PB-loop.wav" volume="-4.5dB" />
-			<sample rootNote="49" loNote="48" hiNote="50" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-c#2-PB-loop.wav" volume="-4.5dB" />
-			<sample rootNote="52" loNote="51" hiNote="53" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-e2-PB-loop.wav" volume="-5dB" />
-			<sample rootNote="55" loNote="54" hiNote="56" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-g2-PB-loop.wav" volume="-5dB" />
-			<sample rootNote="58" loNote="57" hiNote="59" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-a#2-PB-loop.wav" volume="-6dB" />
-			<sample rootNote="61" loNote="60" hiNote="62" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-c#3-PB-loop.wav" volume="-6dB" />
-			<sample rootNote="64" loNote="63" hiNote="65" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-e3-PB-loop.wav" volume="-6dB" />
-			<sample rootNote="67" loNote="66" hiNote="68" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-g3-PB-loop.wav" volume="-3dB" />
-			<sample rootNote="70" loNote="69" hiNote="71" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-a#3-PB-loop.wav" volume="-6dB" />
-			<sample rootNote="73" loNote="72" hiNote="74" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-c#4-PB-loop.wav" volume="-4dB" />
-			<sample rootNote="76" loNote="75" hiNote="77" attack="0.03" decay="0.3" sustain="0" release="0.3" path="Samples/Bass Trombone/bass_trombone-e4-PB-loop.wav" volume="-5dB" />
+		<group name="Bass Trombone Staccato" volume="3dB" attack="0.03" decay="0.3" sustain="0" release="0.3">
+			<sample rootNote="40" loNote="34" hiNote="41" path="Samples/Bass Trombone/bass_trombone-e1-PB-loop.wav" volume="-4dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" path="Samples/Bass Trombone/bass_trombone-g1-PB-loop.wav" volume="-6dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" path="Samples/Bass Trombone/bass_trombone-a#1-PB-loop.wav" volume="-4.5dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" path="Samples/Bass Trombone/bass_trombone-c#2-PB-loop.wav" volume="-4.5dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" path="Samples/Bass Trombone/bass_trombone-e2-PB-loop.wav" volume="-5dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" path="Samples/Bass Trombone/bass_trombone-g2-PB-loop.wav" volume="-5dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" path="Samples/Bass Trombone/bass_trombone-a#2-PB-loop.wav" volume="-6dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" path="Samples/Bass Trombone/bass_trombone-c#3-PB-loop.wav" volume="-6dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" path="Samples/Bass Trombone/bass_trombone-e3-PB-loop.wav" volume="-6dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" path="Samples/Bass Trombone/bass_trombone-g3-PB-loop.wav" volume="-3dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" path="Samples/Bass Trombone/bass_trombone-a#3-PB-loop.wav" volume="-6dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" path="Samples/Bass Trombone/bass_trombone-c#4-PB-loop.wav" volume="-4dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" path="Samples/Bass Trombone/bass_trombone-e4-PB-loop.wav" volume="-5dB" />
 		</group>
 	</groups>
 	<effects>
