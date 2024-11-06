@@ -51,7 +51,7 @@
 			<effects />
 		</group>
 		<!-- manufacture staccato from sustain -->
-		<group name="Trombone-p staccato" tags="vel-p" attack="0.03" decay="0.4" sustain="0" release="0.6">
+		<group name="Trombone-p staccato" tags="vel-p" volume="0" attack="0.03" decay="0.4" sustain="0" release="0.6">
 			<sample rootNote="41" loNote="40" hiNote="43" path="Samples\Trombone\SEC\2_F_p.wav" tuning="-0.05" />
 			<sample rootNote="46" loNote="44" hiNote="48" path="Samples\Trombone\SEC\2_Bb_p.wav" tuning="-0.05" />
 			<sample rootNote="51" loNote="49" hiNote="53" path="Samples\Trombone\SEC\3_Eb_p-PB-loop.wav" volume="1dB" tuning="-0.05" />
